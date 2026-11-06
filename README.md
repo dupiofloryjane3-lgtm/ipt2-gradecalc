@@ -8,7 +8,7 @@ It computes a final grade (30% prelim, 30% midterm, 40% finals) and a PASSED/FAI
 
 ## Team
 
-Team description: (one sentence about your team – BOTH partners edit THIS line in Activity 1)
+Team description: We are two IT students building a small grade calculator with Git, tests and CI.
 
 | Role      | Name | GitHub username |
 |-----------|------|-----------------|
