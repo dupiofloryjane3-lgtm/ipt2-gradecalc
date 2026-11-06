@@ -8,7 +8,7 @@ It computes a final grade (30% prelim, 30% midterm, 40% finals) and a PASSED/FAI
 
 ## Team
 
-Team description: Flory Jane Dupio focuses on testing and quality checks for our grade calculator project.
+Team description: Almira and Flory Jane are two IT students building a small, tested grade calculator with Git and CI.
 
 | Role      | Name | GitHub username |
 |-----------|------|-----------------|
