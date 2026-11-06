@@ -1,26 +1,25 @@
 # ipt2-gradecalc
 
-IT 316 – IPT2 · Version Control, Automated Testing & CI/CD
-STUDENT KIT – Hands-On Activities 1 to 3
-==========================================================
+A small grade calculator for IT 316 – Integrative Programming and Technologies 2.
+It computes a final grade (30% prelim, 30% midterm, 40% finals) and a PASSED/FAILED remark.
 
-Start here: open IPT2_CICDLab_Student_Handout.docx
+<!-- Activity 3: paste your CI status badge on the next line -->
 
-Activity1_Git_Collaboration/
-    README_template.md          Partner A pastes this into README.md (has the "Team description:" line)
-    .gitignore                  Python .gitignore (only if you skipped GitHub's Python template)
-    pull_request_template.md    Optional: save as .github/pull_request_template.md
 
-Activity2_Unit_Testing/
-    grades.py                   Given module – do not change
-    test_grades.py              Starter: one example test + TODOs (you need at least 8)
+## Team
 
-Activity3_CI/
-    .github/workflows/ci.yml    The workflow from the slide – keep this exact folder path
-    requirements.txt            pytest, pytest-cov
+Team description: (one sentence about your team – BOTH partners edit THIS line in Activity 1)
 
-IPT2_CICDLab_Report_Template.docx
-    Paste your 12 screenshots, then Save As PDF: Lastname_IPT2_CICDLab.pdf
+| Role      | Name | GitHub username |
+|-----------|------|-----------------|
+| Partner A |      |                 |
+| Partner B |      |                 |
 
-Note: .github and .gitignore start with a dot. If you cannot see them,
-turn on "Hidden items" (Windows File Explorer > View) or Cmd+Shift+. (macOS).
+## How to run the tests
+
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest -v --cov=grades --cov-report=term-missing
+```
