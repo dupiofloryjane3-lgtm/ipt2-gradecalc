@@ -75,3 +75,6 @@ def test_rounds_to_two_decimals():
 def test_grade_then_remark():
     assert remark(compute_final_grade(60, 75, 90)) == "PASSED"   # 76.5
     assert remark(compute_final_grade(70, 70, 70)) == "FAILED"   # 70.0
+
+def test_failing_grade_remark():
+    assert remark(compute_final_grade(50, 60, 70)) == "FAILED"   # 15 + 18 + 28 = 61    
