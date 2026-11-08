@@ -10,11 +10,10 @@ It computes a final grade (30% prelim, 30% midterm, 40% finals) and a PASSED/FAI
 
 Team description: Almira and Flory Jane are two IT students building a small, tested grade calculator with Git and CI.
 
-| Role      | Name                 | GitHub username                       |
-|-----------|----------------------|----------------- ---------------------|
-| Partner A |   Flory Jane Dupio   | dupiofloryjane3-lgtm                  |
-| Partner B |   Almira Durango     | durango1919almira-prog                |
-
+| Role      | Name             | GitHub username        |
+|-----------|------------------|------------------------|
+| Partner A | Flory Jane Dupio | dupiofloryjane3-lgtm   |
+| Partner B | Almira Durango   | durango1919almira-prog |
 ## How to run the tests
 
 ```bash
