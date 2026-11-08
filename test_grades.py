@@ -7,7 +7,7 @@ from grades import compute_final_grade, remark
 def test_typical_scores():
     prelim, midterm, finals = 80, 85, 90
     result = compute_final_grade(prelim, midterm, finals)
-    assert result == pytest.approx(85.6)   # now wrong on purpose
+    assert result == pytest.approx(85.5)
 
 
 # NORMAL VALUES (expected values worked out by hand)
