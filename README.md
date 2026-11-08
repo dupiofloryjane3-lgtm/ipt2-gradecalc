@@ -4,7 +4,7 @@ A small grade calculator for IT 316 – Integrative Programming and Technologies
 It computes a final grade (30% prelim, 30% midterm, 40% finals) and a PASSED/FAILED remark.
 
 <!-- Activity 3: paste your CI status badge on the next line -->
-
+[![CI](https://github.com/dupiofloryjane3-lgtm/ipt2-gradecalc/actions/workflows/ci.yml/badge.svg)](https://github.com/dupiofloryjane3-lgtm/ipt2-gradecalc/actions/workflows/ci.yml)
 
 ## Team
 
